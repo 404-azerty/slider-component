@@ -116,3 +116,13 @@ ul {
   list-style: none;
 }
 /*# Fin Reset #*/
+
+/* General */
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
