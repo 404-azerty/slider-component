@@ -129,6 +129,13 @@ ul {
 
 main {
   font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: var(--dark-blue);
+}
+
+article {
+  min-height: 100vh;
+  /* padding: 1.5em; */
 }
 
 footer .attribution {
@@ -137,6 +144,77 @@ footer .attribution {
 }
 footer .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Top screen */
+
+#block-image {
+  min-height: 46vh;
+  background: 50% 47% no-repeat url(./images/pattern-bg.svg);
+  /* background: no-repeat url(./images/pattern-bg.svg) 50% 30%; */
+  background-size: 88.5%;
+  position: relative;
+  padding-top: 3.25em;
+}
+
+#block-image .image {
+  display: block;
+  margin: auto;
+  width: 16em;
+  height: 16em;
+  border-radius: 0.25em;
+  background-color: var(--grayish-blue);
+  box-shadow: 0px 21px 28px 0px hsla(240, 38%, 20%, 0.25);
+}
+
+#block-image #slider-controls {
+  position: absolute;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.25em;
+  border-radius: 2em;
+}
+
+#block-image #slider-controls button {
+  background: white;
+  border: none;
+  cursor: pointer;
+  vertical-align: -webkit-baseline-middle;
+}
+
+#block-image #slider-controls button img {
+  max-height: 1.25em;
+}
+
+#block-image #slider-controls #control-left {
+  margin-right: 0.5em;
+}
+
+/* Bottom screen */
+
+blockquote {
+  min-height: 46.5vh;
+  background: center top / 17% no-repeat url(./images/pattern-quotes.svg),
+    bottom left / 85% no-repeat url(./images/pattern-curve.svg);
+  text-align: center;
+}
+
+blockquote #about {
+  text-shadow: 0px 0px 8px rgb(255, 255, 255);
+  line-height: 1.5em;
+  padding: 1.75em 2em;
+  letter-spacing: 1px;
+}
+
+blockquote #name {
+  font-weight: var(--font-weight-bold);
+  line-height: 1.5em;
+}
+
+blockquote #role {
+  font-weight: var(--font-weight-medium);
+  color: var(--grayish-blue);
 }
 
 /* Media querie */

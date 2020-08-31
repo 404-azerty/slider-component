@@ -13,20 +13,24 @@
   <body>
     <main>
       <article role="slider">
-        <div>
-          <img src="./images/image-tanya.jpg" alt="Picture representing a person" class="image" />
-          <div>
-            <button type="button" aria-label="previous slide"></button>
-            <button type="button" aria-label="next slide"></button>
+        <div id="block-image">
+          <img src="" alt="Picture representing a person" class="image" />
+          <div id="slider-controls">
+            <button type="button" aria-label="previous slide" id="control-left">
+              <img src="./images/icon-prev.svg" alt="Icon previous" aria-hidden="true" />
+            </button>
+            <button type="button" aria-label="next slide" id="control-right">
+              <img src="./images/icon-next.svg" alt="Icon next" aria-hidden="true" />
+            </button>
           </div>
         </div>
 
         <blockquote>
-          <p class="about">“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+          <p id="about">“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
           <cite>
             <p>
-              <span class="name">Tanya Sinclair</span>
-              <span class="role">UX Engineer</span>
+              <span id="name">Tanya Sinclair</span><br />
+              <span id="role">UX Engineer</span>
             </p>
           </cite>
         </blockquote>
