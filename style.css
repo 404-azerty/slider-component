@@ -118,6 +118,18 @@ ul {
 /*# Fin Reset #*/
 
 /* General */
+:root {
+  --dark-blue: hsl(240, 38%, 20%);
+  --grayish-blue: hsl(240, 18%, 77%);
+  --font-size: 32px;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+}
+
+main {
+  font-family: "Inter", sans-serif;
+}
 
 footer .attribution {
   font-size: 11px;
@@ -125,4 +137,8 @@ footer .attribution {
 }
 footer .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media querie */
+@media only screen and (min-width: 1440px) and (-webkit-min-device-pixel-ratio: 1) {
 }
