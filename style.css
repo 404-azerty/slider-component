@@ -157,7 +157,7 @@ footer .attribution a {
   padding-top: 3.25em;
 }
 
-#block-image .image {
+#block-image #image {
   display: block;
   margin: auto;
   width: 16em;
